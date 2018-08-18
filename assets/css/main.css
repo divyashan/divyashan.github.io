@@ -3467,4 +3467,8 @@ figure img {
         .figure {
         	display: inline-block;
         }
+
+        a {
+        	color: #585858;
+        }
     }

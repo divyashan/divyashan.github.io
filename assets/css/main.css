@@ -3232,12 +3232,12 @@
 			}
 
 			#footer > .inner section:nth-child(1) {
-				width: calc(66% - 2.5em);
-				margin-right: 2.5em;
+				width: calc(62% - 2.5em);
+				margin-right: 1em;
 			}
 
 			#footer > .inner section:nth-child(2) {
-				width: calc(33% - 2.5em);
+				width: calc(40% - 2.5em);
 				margin-left: 2.5em;
 			}
 
@@ -3462,5 +3462,9 @@ figure img {
 @media only screen and (max-width: 900px) {
         .description{
             display: none;
+        }
+
+        .figure {
+        	display: inline-block;
         }
     }

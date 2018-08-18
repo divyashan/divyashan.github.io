@@ -3459,3 +3459,8 @@ figure img {
 	width: 224px;
 }
 
+@media only screen and (max-width: 900px) {
+        .description{
+            display: none;
+        }
+    }

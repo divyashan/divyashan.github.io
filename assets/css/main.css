@@ -3457,6 +3457,8 @@ figure img {
 .lab_member {
 	height: 288px;
 	width: 224px;
+	display: block;
+	margin: auto;
 }
 
 @media only screen and (max-width: 900px) {
@@ -3464,8 +3466,9 @@ figure img {
             display: none;
         }
 
-        .figure {
-        	display: inline-block;
+        .lab_member {
+        	display: block;
+        	margin: auto;
         }
 
         a {
